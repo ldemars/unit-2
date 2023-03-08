@@ -1,29 +1,71 @@
 /*Add CSS styles here*/
-#map{
-    height:500px;
-    width:1000px;
-    
+#source1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 10px;
 }
-#panel {  
-    width: 25%;  
-    padding: 20px;  
-    display: inline-block;  
-    vertical-align: top;  
-    text-align: center;  
-    line-height: 42px;  
-}  
 
-.range-slider {  
-    width: 55%;  
-}  
+#map {
+    height: 600px;
+    width: 100%;
+    display: inline-block;
+}
 
-.step {  
-    width: 20%;  
-}  
+.leaflet-popup-content p {
+    margin: .1em 0;
+}
 
-.step img {  
-    width: 100%;  
-}  
+
+.sequence-control-container {
+    width: 350px;
+    height: 30px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 45px;
+    text-align: center;
+    border: solid gray 1px;
+}
+
+.range-slider {
+    width: 250px;
+}
+
+
+.step {
+	width: 40px;
+}
+
+.step img {
+	width: 100%;
+  height: auto;
+}
+
+#forward {
+    float: right;
+}
+
 #reverse {  
     float: left;  
+}
+
+.legend-control-container {
+    width: 200px;
+    height: 125px;
+    font-weight: bold;
+    background-color: rgba(255,255,255,0.8);
+    padding: 5px;
+    text-align: center;
+    border: solid gray 1px;
+    
+}
+
+.legend-control-container p{
+    margin: 0;
+    
+}
+
+.legend-control-container svg{
+    width: 100%;
+    height: 100%;
+    overflow: visible;
 }
